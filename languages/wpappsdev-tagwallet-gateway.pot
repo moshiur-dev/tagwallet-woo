@@ -1,0 +1,234 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo "
+"Tagwallet Gateway "
+"v1.0.0\n"
+"POT-Creation-Date: "
+"2021-06-29 13:43+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Saiful "
+"Islam <anandacsebd@gmail."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: includes/Frontend.php:35
+msgid "Payment QR Code"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:39
+#: includes/gateways/wc-gateway-tagwallet.php:49
+#: includes/gateways/wc-gateway-tagwallet.php:89
+#: includes/gateways/wc-gateway-tagwallet.php:170
+msgid "Payinvite"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:40
+msgid ""
+"Invite someone to pay "
+"for these."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:80
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:82
+msgid "Enable Payinvite"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:86
+msgid "Title"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:88
+msgid ""
+"This controls the title "
+"which the user sees "
+"during checkout."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:93
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:95
+msgid ""
+"This controls the "
+"description which the "
+"user sees during "
+"checkout."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:96
+msgid "Pay with Payinvite"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:100
+msgid "Payinvite sandbox"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:102
+msgid ""
+"Enable Payinvite sandbox"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:104
+#, php-format
+msgid ""
+"Payinvite sandbox can be "
+"used to test payments. "
+"Sign up for a developer "
+"account <a href=\"%s"
+"\">here</a>."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:107
+msgid "Host url"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:109
+#: includes/gateways/wc-gateway-tagwallet.php:127
+msgid ""
+"Please enter host url."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:113
+msgid "Vendor ID"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:115
+msgid ""
+"Please enter Vendor ID."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:119
+msgid "API key"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:121
+msgid ""
+"Please enter API key."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:125
+msgid "Sandbox Host url"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:131
+msgid "Sandbox Vendor ID"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:133
+msgid ""
+"Please enter sandbox "
+"Vendor ID."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:137
+msgid "Sandbox API key"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:139
+msgid ""
+"Please enter sandbox API "
+"key."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:171
+msgid ""
+"Payinvite works by "
+"sending the user to "
+"Payinvite to enter their "
+"payment information."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:172
+#, php-format
+msgid ""
+"You must add the "
+"following webhook "
+"endpoint <strong style="
+"\"background-color:#ddd;"
+"\">&nbsp;%s&nbsp;</"
+"strong> to your <a href="
+"\"#\" target=\"_blank"
+"\">Tag Wallet account "
+"settings</a> (if there "
+"isn't one already "
+"enabled). This will "
+"enable you to receive "
+"notifications on the "
+"payment statuses."
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:247
+#, php-format
+msgid "Order #%s - %s"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:421
+#, php-format
+msgid ""
+"Watting for payment "
+"confirmation.<br>Payment "
+"ID: %s"
+msgstr ""
+
+#: includes/gateways/wc-gateway-tagwallet.php:424
+msgid ""
+"PayInvite Payment "
+"processing failed. "
+"Please retry."
+msgstr ""
+
+#: includes/helper-functions.php:78
+#, php-format
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/helper-functions.php:95
+msgid ""
+"action_args should not "
+"be overwritten when "
+"calling "
+"wpadtwpg_get_template."
+msgstr ""

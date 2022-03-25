@@ -1,0 +1,23 @@
+{
+    "name": "siananda/wpappsdev-tagwallet-gateway",
+    "description": "WooCommerce Tagwallet Payment Gateway",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [{
+        "name": "Saiful Islam Ananda",
+        "email": "anandacsebd@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "tecnickcom/tc-lib-barcode": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPAppsDev\\WCTWPG\\": "includes/"
+        },
+        "files": [
+            "includes/helper-functions.php"
+        ]
+    }
+}
